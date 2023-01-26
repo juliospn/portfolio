@@ -4,9 +4,9 @@ Hi, my name is Julio Nascimento and I am a recent graduate in Civil Engineering 
 ## Articles
 I have written several articles on different topics, including technology, philosophy and economic philosophy. Here are a few examples:
 
-*Technology: "Artificial Intelligence and this blog"
-*Philosophy: "Specialization or Robotics?"
-*Economic Philosophy: "Interventionism and Economic Cycles"
+* Technology: "Artificial Intelligence and this blog"
+* Philosophy: "Specialization or Robotics?"
+* Economic Philosophy: "Interventionism and Economic Cycles"
 
 ### Skills
 I am well-versed in various technologies and programming languages, including Vue.js, NodeJS and ChatGPT. Additionally, I am always looking to expand my knowledge and take on new challenges.
