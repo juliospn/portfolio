@@ -4,6 +4,11 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ @import url("../styles/header.css");
+ @import url("./blog.css");
+ @import url("../styles/footer.css");
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -4943,6 +4948,22 @@ button.close {
 .bg-primary {
   background-color: #78d5ef !important; }
 
+.bg-green {
+  background-color: var(--green) !important; }
+
+.bg-purple {
+  background-color: var(--purple) !important; }
+
+.bg-orange {
+  background-color: orange !important; }
+
+.bg-red {
+  background-color: red !important; }
+
+.bg-darkblue {
+  background-color: blue !important; }
+  
+
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
@@ -7570,7 +7591,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    opacity: .7;
+    opacity: .73;
     background: #fff;
     z-index: 0; }
   .hero-wrap.hero-wrap-2 {
@@ -7590,7 +7611,7 @@ h1, h2, h3, h4, h5,
     .hero-wrap .text {
       font-size: 24px;
       color: black;
-      font-weight: 400; }
+      font-weight: 500; }
     .hero-wrap .text h1 {
       letter-spacing: 1px;
       font-weight: 900; }
@@ -8035,7 +8056,10 @@ textarea.form-control {
   font-size: 14px;
   background: #132238;
   padding: 6em 0; 
-z-index: 1000000000;
+  z-index: 100000;
+  text-align: center;
+  align-items: flex-end;
+  bottom: 0;
 }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
