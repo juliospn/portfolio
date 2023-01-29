@@ -74,7 +74,7 @@ article {
 }
 
 li :hover {
-    transform: scale(1.15); /* aumenta o tamanho em 10% */
+    transform: scale(1.07); /* aumenta o tamanho em 10% */
 }
 
 li > a {
