@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="./css/fontawesome.min.css">
     
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -38,9 +39,9 @@
 					<li class="colorlib-active"><a href="index.html">Home</a></li>
 					<li><a href="#artigos">Artigos</a></li>
 					<li><a href="#habilidades">Habilidades</a></li>
+					<li><a href="#habilidades">Certificados</a></li>
 					<li><a href="#projetos">Projetos</a></li>
-					<li><a href="">Sobre mim</a></li>
-					<li><a href="">Contato</a></li>
+					<li><a href="#contato">Contato</a></li>
 				</ul>
 			</nav>
 
@@ -132,78 +133,88 @@
 			
 		</div>
 		<div class="container">
-    		<div class="row justify-content-center mb-5 pb-2">
+    		<div class="row justify-content-center mb-2 pb-2">
           		<div class="col-md-7 heading-section text-center ftco-animate">
             		<h2 class="mb-4" id="habilidades">Habilidades e Certificados</h2>
-            		<p>Minhas habilidades em desenvolvimento e Certificados de cursos feitos.</p>
+            
           		</div>
+				
         	</div>
-			<div class="row align-items-center mb-5">
-				<div class="col-md-6" class="row g-5" >
-					<div class="skill mb-4" >
-						<div class="d-flex justify-content-between">
-							<h6 class="font-weight-bold">HTML</h6>
-							<h6 class="font-weight-bold">80%</h6>
+			<div style="display:flex; justify-content: space-around; flex-direction: row-reverse;
+			flex-wrap: nowrap;
+			align-items: flex-start;">
+				<div>
+					<ul style="list-style-type: none; display: block; flex-wrap: wrap;">
+						<li style="display: flex;"> <a href="https://cursos.alura.com.br/degree/certificate/c6142b68-ed56-47d8-8d14-3d9dd60e4168"> <img src="./images/icone-certificado.bmp" alt="Certificado"></a><h5 style="padding: 6px;"> Formação HTML e CSS</h5></li>
+						<li style="display: flex;"> <a href="https://cursos.alura.com.br/degree/certificate/4e85967b-12bb-40f6-851d-2d994eca3448"> <img src="./images/icone-certificado.bmp" alt="Certificado"></a><h5 style="padding: 6px;"> Formação Frontend</h5></li>
+						<li style="display: flex;"> <a href="https://cursos.alura.com.br/degree/certificate/4e85967b-12bb-40f6-851d-2d994eca3448"> <img src="./images/icone-certificado.bmp" alt="Certificado"></a><h5 style="padding: 6px;"> Formação Python</h5></li>
+					</ul>
+				</div>
+				<div class="row align-items-center mb-5" style="width: 600px; ">
+					<div class="col-md-6" class="row g-5" >
+						<div class="skill mb-4" >
+							<div class="d-flex justify-content-between">
+								<h6 class="font-weight-bold">HTML</h6>
+								<h6 class="font-weight-bold">80%</h6>
+							</div>
+							<div class="progress" style="height:6px">
+								<div class="progress-bar bg-orange" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+							</div>
 						</div>
-						<div class="progress">
-							<div class="progress-bar bg-orange" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+						<div class="skill mb-4">
+							<div class="d-flex justify-content-between">
+								<h6 class="font-weight-bold">CSS</h6>
+								<h6 class="font-weight-bold">80%</h6>
+							</div>
+							<div class="progress" style="height:6px">
+								<div class="progress-bar bg-darkblue" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+							</div>
+						</div>
+						<div class="skill mb-4">
+							<div class="d-flex justify-content-between">
+								<h6 class="font-weight-bold">Python</h6>
+								<h6 class="font-weight-bold">65%</h6>
+							</div>
+							<div class="progress" style="height:6px">
+								<div class="progress-bar bg-green" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
+							</div>
 						</div>
 					</div>
-					<div class="skill mb-4">
-						<div class="d-flex justify-content-between">
-							<h6 class="font-weight-bold">CSS</h6>
-							<h6 class="font-weight-bold">80%</h6>
+					<div class="col-md-6">
+						<div class="skill mb-4">
+							<div class="d-flex justify-content-between">
+								<h6 class="font-weight-bold">Javascript</h6>
+								<h6 class="font-weight-bold">75%</h6>
+							</div>
+							<div class="progress" style="height:6px">
+								<div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+							</div>
 						</div>
-						<div class="progress">
-							<div class="progress-bar bg-darkblue" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+						<div class="skill mb-4">
+							<div class="d-flex justify-content-between">
+								<h6 class="font-weight-bold">React</h6>
+								<h6 class="font-weight-bold">50%</h6>
+							</div>
+							<div class="progress" style="height:6px">
+								<div class="progress-bar bg-primary" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+							</div>
 						</div>
-					</div>
-					<div class="skill mb-4">
-						<div class="d-flex justify-content-between">
-							<h6 class="font-weight-bold">Python</h6>
-							<h6 class="font-weight-bold">65%</h6>
-						</div>
-						<div class="progress">
-							<div class="progress-bar bg-green" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
+						<div class="skill mb-4">
+							<div class="d-flex justify-content-between">
+								<h6 class="font-weight-bold">Wordpress</h6>
+								<h6 class="font-weight-bold">85%</h6>
+							</div>
+							<div class="progress" style="height:6px">
+								<div class="progress-bar bg-red" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+							</div>	
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<div class="skill mb-4">
-						<div class="d-flex justify-content-between">
-							<h6 class="font-weight-bold">Javascript</h6>
-							<h6 class="font-weight-bold">75%</h6>
-						</div>
-						<div class="progress">
-							<div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
-						</div>
-					</div>
-					<div class="skill mb-4">
-						<div class="d-flex justify-content-between">
-							<h6 class="font-weight-bold">React</h6>
-							<h6 class="font-weight-bold">50%</h6>
-						</div>
-						<div class="progress">
-							<div class="progress-bar bg-primary" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
-						</div>
-					</div>
-					<div class="skill mb-4">
-						<div class="d-flex justify-content-between">
-							<h6 class="font-weight-bold">Wordpress</h6>
-							<h6 class="font-weight-bold">85%</h6>
-						</div>
-						<div class="progress">
-							<div class="progress-bar bg-red" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
-						</div>
-					</div>
-				</div>
-			
 			</div>
-
 		</div>
 		<div class="container">
     		<div class="row justify-content-center pb-2">
-          		<div class="col-md-7 heading-section text-center ftco-animate">
+          		<div class="col-md-7 heading-section text-center ftco-animate mb-4">
             		<h2 id="projetos">Projetos</h2>
           		</div>
         	</div>
@@ -238,7 +249,7 @@
           <div class="col-md-12">
 			<div class="col-md">
 				<div class="ftco-footer-widget mb-4">
-					<h2 class="ftco-heading-2" style="text-align: center;">Alguma dúvida?</h2>
+					
 					<h2 class="ftco-heading-2" style="text-align: center;">juliospn@gmail.com</h2>
 				</div>
 			</div>
