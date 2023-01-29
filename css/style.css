@@ -7368,7 +7368,6 @@ h1, h2, h3, h4, h5,
       padding-top: 2em;
       background: rgba(0, 0, 0, 0.04); } }
   #colorlib-aside #colorlib-logo {
-    margin-bottom: 2.5em;
     display: block;
     width: 100%;
     font-weight: 900;
@@ -7926,7 +7925,7 @@ h1, h2, h3, h4, h5,
         color: #f05d23; }
 
 .blog-entry {
-  margin-bottom: 6em; }
+  margin-bottom: 4em; }
   .blog-entry .img {
     display: block;
     height: 400px;
@@ -8049,10 +8048,11 @@ textarea.form-control {
   font-size: 20px; }
 
 .ftco-section {
-  padding: 6em 1.8em;
+  padding: 5em 1.8em;
   position: relative; }
 
 .ftco-footer {
+  height: 60px;
   font-size: 14px;
   background: #132238;
   padding: 6em 0; 
@@ -8066,7 +8066,7 @@ textarea.form-control {
     letter-spacing: .1em; }
   .ftco-footer .ftco-footer-widget h2 {
     color: #fff;
-    margin-bottom: 40px;
+
     font-size: 17px;
     font-weight: 700;
     letter-spacing: 1px; }
