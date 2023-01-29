@@ -1,3 +1,9 @@
+.icone-linguagem {
+  display: flex;
+  margin-bottom: 8rem;
+  justify-content: center;
+}
+
 article {
   column-count: 3; /* Define quatro colunas */
   column-width: 500px; /* Define o tamanho das colunas em 300 pixels */
