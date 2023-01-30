@@ -7441,7 +7441,7 @@ h1, h2, h3, h4, h5,
           transform: scaleX(1); }
   #colorlib-aside .colorlib-footer {
     position: absolute;
-    bottom: 40px;
+    bottom: 3%;
     right: 1.5em;
     left: 1.5em;
     font-size: 14px;
