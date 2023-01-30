@@ -118,6 +118,10 @@ li > a {
     justify-content: center;
 
   }
+
+  .icone-linguagem {
+    margin-bottom: 2rem;
+  }
 }
 
 @media (min-width:1336px) {
@@ -135,6 +139,7 @@ li > a {
   }
 
   .icone-linguagem {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
 }
+
