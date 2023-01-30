@@ -133,4 +133,8 @@ li > a {
   .certificados-box { 
     margin-left: 2rem;
   }
+
+  .icone-linguagem {
+    margin-bottom: 2rem;
+  }
 }
