@@ -2,6 +2,8 @@
   display: flex;
   margin-bottom: 8rem;
   justify-content: center;
+  position: relative;
+  bottom: 3%;
 }
 
 article {
