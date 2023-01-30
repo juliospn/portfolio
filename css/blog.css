@@ -3,7 +3,7 @@
   margin-bottom: 8rem;
   justify-content: center;
   position: relative;
-  bottom: 3%;
+  bottom: 2%;
 }
 
 article {
@@ -123,6 +123,7 @@ li > a {
 
   .icone-linguagem {
     margin-bottom: 2rem;
+    bottom: 4%;
   }
 }
 
@@ -142,6 +143,7 @@ li > a {
 
   .icone-linguagem {
     margin-bottom: 4rem;
+    bottom: 3%;
   }
 }
 
