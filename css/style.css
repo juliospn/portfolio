@@ -7373,7 +7373,7 @@ h1, h2, h3, h4, h5,
     font-weight: 900;
     font-size: 34px; }
     @media (max-width: 991.98px) {
-      #colorlib-aside #colorlib-logo {
+      #colorlib-aside {
         margin-bottom: 20px; } }
     #colorlib-aside #colorlib-logo a {
       display: inline-block;
