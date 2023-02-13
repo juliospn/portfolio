@@ -32,7 +32,6 @@ article {
     
 .article-box img {
     width: 100%;
-    margin-bottom: 20px;
     border: solid 1px #d1d1d1;
 }
     
@@ -81,6 +80,12 @@ article {
   align-items: flex-start;
 }
 
+.box-descricao {
+  border: solid 1px black;
+  padding: 5px;
+  font-size: 15px;
+}
+
 li :hover {
     transform: scale(1.07); /* aumenta o tamanho em 10% */
 }
@@ -101,10 +106,6 @@ li > a {
   article {
       display: flex;
   }
-  
-  .article-box p {
-      width: 380px;
-  }
 }
 
 @media (max-width:766px) {
@@ -123,7 +124,7 @@ li > a {
 
   .icone-linguagem {
     margin-bottom: 2rem;
-    bottom: 6%;
+    bottom: 5%;
   }
 }
 
