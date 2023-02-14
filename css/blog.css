@@ -86,6 +86,13 @@ article {
   font-size: 15px;
 }
 
+.animacao-contato {
+  width: 400px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+}
+
 li :hover {
     transform: scale(1.07); /* aumenta o tamanho em 10% */
 }
@@ -148,3 +155,11 @@ li > a {
   }
 }
 
+@media (max-width:1329px) {
+  .animacao-contato {
+    display: none;
+  }
+  #botao-curriculo {
+    display: none;
+  }
+}
