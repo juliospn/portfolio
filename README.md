@@ -1,4 +1,9 @@
 # Welcome to my portfolio
+
+<div align="center">
+	<img width=600px src="./assets/portfolio.gif">
+</div><br>
+
 Hi, my name is Julio Nascimento and I am a recent graduate in Civil Engineering from UFOP. I became a Bitcoin enthusiast in 2019 and since then I have been studying everything about this anarchist universe that involves everything from economics, philosophy to technology.
 
 ## Articles
