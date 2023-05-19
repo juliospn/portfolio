@@ -18,3 +18,4 @@ I have several projects that showcase my skills and abilities, including a portf
 If you have any questions or want to discuss any opportunities, please feel free to contact me at juliospn@gmail.com.
 
 Copyright ©2023 All rights reserved.
+
