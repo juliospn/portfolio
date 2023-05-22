@@ -1,4 +1,4 @@
-# Welcome to my portfolio
+<h1 align="center"> Welcome to my portfolio </h1>
 
 <div align="center">
 	<img width=900px src="./assets/portfolio.gif">
